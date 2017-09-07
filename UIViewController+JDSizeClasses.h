@@ -21,5 +21,5 @@ typedef NS_ENUM(NSInteger, JDUserInterfaceSizeClass) {
 @property (nonatomic, readonly) JDUserInterfaceSizeClass jd_horizontalSizeClass;
 
 - (void)jd_traitCollectionDidChange:(nullable UITraitCollection *)previousTraitCollection;
-
+    
 @end
