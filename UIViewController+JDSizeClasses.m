@@ -74,11 +74,11 @@
 - (void)jd_SizeClasses_viewDidLoad
 {
     [self jd_SizeClasses_viewDidLoad];
-    if (![self respondsToSelector:@selector(traitCollectionDidChange:)]) {
+//    if (![self respondsToSelector:@selector(traitCollectionDidChange:)]) {
         if ([self respondsToSelector:@selector(jd_traitCollectionDidChange:)]) {
             [self jd_traitCollectionDidChange:nil];
         }
-    }
+//    }
 }
 
 - (void)jd_SizeClasses_traitCollectionDidChange:(nullable UITraitCollection *)previousTraitCollection
